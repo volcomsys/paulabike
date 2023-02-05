@@ -1,0 +1,198 @@
+﻿body {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 110px;
+}
+
+h1,h3 {
+    color: black;
+}
+
+header {
+    width: 100%;
+    left: 0;
+    right: 5px;
+    top: 0;
+    position: fixed;
+}
+
+    header.top {
+        background-image: #cccccc url(images/fondoPrint.gif);
+        margin: 10px 10px 0px 10px;
+        height: 110px;
+    }
+
+        header.top img#headerSlogan {
+            float: right;
+        }
+
+#slogan {
+    height: 110px;
+    width: 220px;
+    float: right;
+    margin-right: 10px;
+}
+
+nav {
+    position: fixed;
+    background-color: #cccccc top left;
+    margin: 10px 10px 0px 10px;
+}
+
+    nav ul {
+        margin: 0px;
+        list-style-type: none;
+        padding: 0px 0px 5px 0px;
+    }
+
+        nav ul li {
+            display: inline;
+            padding: 5px 10px 5px 10px;
+        }
+
+            nav ul li a:link, nav ul li a:visited {
+                color: #333333;
+                border-bottom: none;
+                font-weight: blod;
+            }
+
+            nav ul li.selected {
+                background: #cccccc;
+            }
+
+
+div#tableContainer {
+    display: table;
+    border-spacing: 5px;
+    color: #cccccc;
+    padding-top: 30px;
+    height: 100%;
+}
+
+div#tableRow {
+    display: table-row;
+}
+
+section#novedades {
+    display: table-cell;
+    background: #ffffff top left;
+    padding: 15px;
+    vertical-align: top;
+    width: 20%;
+}
+
+section#index {
+    display: table-cell;
+    background: #ffffff top left;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+section#bielas {
+    pading: 15px;
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+}
+
+section#piñones {
+    pading: 15px;
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+}
+
+section#cajas {
+    pading: 15px;
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+}
+
+section#cuadros {
+    padding: 15px;
+    display: table-cell;
+    width: 40%;
+    vertical-align: top;
+}
+
+.slogan {
+    color: #666666;
+}
+
+.beanheading {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+aside {
+    display: table-cell;
+    background: #666666 bottom right;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    width: 20%;
+}
+
+section#blog {
+    display: table-cell;
+    font-size: 105%;
+    padding: 0px;
+    vertical-align: top;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    border-bottom: thin dotted #cccccc;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+    border-bottom: thin dotted @666666;
+}
+
+footer {
+    background: #333333 url(images/fondoPiePrint.gif) top left;
+    color: #cccccc;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid white;
+    caption-side: bottom;
+    border-collapse: separate;
+}
+
+th {
+    background-color: #333333;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+tr.center {
+    text-align: center;
+    background-color: #cccccc;
+}
+
+th.color {
+    background-color: #cccccc;
+}
+
+th.color2 {
+    background-color: #cccccc;
+}
+
+td.color3 {
+    background-color: #cccccc;
+}

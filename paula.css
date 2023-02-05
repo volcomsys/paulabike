@@ -1,0 +1,185 @@
+﻿body {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #cccccc url(images/fondoPagina.gif);
+    padding-top: 110px;
+}
+h1 {
+    color: #cc3333;
+}
+h3 {
+    color: #ff0000;
+}
+header {
+    width: 100%;
+    left:0;
+    right: 5px;
+    top:0;
+    position: fixed;
+}
+header.top {
+    background-image: url(images/fondo.gif);
+    margin: 10px 10px 0px 10px;
+    height: 110px;
+}
+header.top img#headerSlogan {
+    float: right;
+}
+#slogan {
+    height: 110px;
+    width: 220px;
+    float: right;
+    margin-right: 10px;
+}
+nav {
+    position: fixed;
+    background-color: url(images/background.gif) top left;
+    margin: 10px 10px 0px 10px;
+}
+    nav ul {
+        margin: 0px;
+        list-style-type: none;
+        padding: 0px 0px 5px 0px;
+    }
+        nav ul li {
+            display: inline;
+            padding: 5px 10px 5px 10px;
+        }
+
+            nav ul li a:link, nav ul li a:visited {
+                color: #5d0f7a;
+                border-bottom: none;
+                font-weight: blod;
+            }
+
+            nav ul li.selected {
+                background: #cccc99 url(images/background.gif);
+            }
+             nav ul li a:hover {
+                color: green;
+            }
+
+section#novedades a:hover, aside a:hover {
+    color: green;
+}
+#tableContainer {
+    display: table;
+    border-spacing: 5px;
+    color: #e7e5d9;
+    padding-top: 30px;
+    height: 100%;
+}
+#tableRow {
+    display: table-row;
+}
+#novedades {
+    display: table-cell;
+    background: #cccc99 url(images/background.gif) top left;
+    padding: 15px;
+    vertical-align: top;
+    width: 20%;
+}
+#index {
+    display: table-cell;
+    background: #666633 url(images/background.gif) top left;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+}
+#bielas {
+    pading:15px;
+    display:table-cell;
+    vertical-align: top;
+    width: 25%;
+}
+#piñones {
+    pading: 15px;
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+}
+#cajas {
+    pading: 15px;
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+}
+#cuadros {
+    text-align: center;
+    padding: 15px;
+    display: table-cell;
+    width: 40%;
+    vertical-align: top;
+}
+.slogan {
+    color: #993333;
+}
+.beanheading {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+aside {
+    display: table-cell;
+    background: #333333 url(images/background.gif) bottom right;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    width: 20%;
+}
+#blog {
+    text-align: center;
+    display: table-cell;
+    font-size: 105%;
+    padding: 0px;
+    vertical-align: top;
+}
+a:link {
+    color: #0033ff;
+    text-decoration: none;
+    border-bottom: thin dotted #cc6666;
+}
+a:visited {
+    color: #9933ff;
+    text-decoration: none;
+    border-bottom: thin dotted @675c47;
+}
+footer {
+    background: #333333 url(images/fondoPie.gif) top left;
+    color: #e7e5d9;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+    clear: left;
+}
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid white;
+    caption-side: bottom;
+    border-collapse: separate;
+}
+th {
+    background-color: #663399;
+}
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+tr.center {
+    text-align: center;
+    background-color: #996666;
+}
+th.color {
+    background-color: #ff6600;
+}
+th.color2 {
+    background-color: #999999;
+}
+th.color1 {
+    background-image: url(images/logoMini.gif);
+}
+td.color3 {
+    background-color: #ff6600;
+}
