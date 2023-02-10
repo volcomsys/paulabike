@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #cccccc url(images/fondoPagina.gif);
@@ -20,8 +20,8 @@ header {
 header.top {
     background-image: url(images/fondo.gif);
     background-size: cover;
-    margin: 10px 10px 0px 10px;
-    height: 130px;
+    margin: 0px;
+    height: 140px;
 }
 header.top img#headerSlogan {
     float: right;
